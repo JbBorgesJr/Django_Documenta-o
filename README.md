@@ -37,3 +37,15 @@ python manage.py startapp polls
 
 # Criar Tabela no banco de dados
 python manage.py migrate
+
+# Quando realizar mudanças em models
+python manage.py makemigrations polls
+
+Mude seus modelos (em models.py).
+Rode python manage.py makemigrations para criar migrações para suas modificações
+Rode python manage.py migrate para aplicar suas modificações no banco de dados.
+
+
+
+# Criar usuario para acessar o banco
+python manage.py createsuperuser

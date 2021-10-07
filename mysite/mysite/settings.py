@@ -38,6 +38,7 @@ django.contrib.messages – Um framework de envio de mensagem.
 django.contrib.staticfiles – Um framework para gerenciamento de arquivos estáticos.
 """
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
