@@ -8,3 +8,6 @@ python -m venv env
 	-- powerScript--
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 .\env\Scripts\activate.sp1
+
+# Instalar Django
+python -m pip install Django
