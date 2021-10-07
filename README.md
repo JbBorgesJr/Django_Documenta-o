@@ -34,3 +34,6 @@ python manage.py runserver
 
 # Criando a aplicação de enquetes: Polls
 python manage.py startapp polls
+
+# Criar Tabela no banco de dados
+python manage.py migrate

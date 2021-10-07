@@ -29,7 +29,14 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+"""
+django.contrib.admin – O site de administração. Irá usar isso em breve.
+django.contrib.auth – Um sistema de autenticação.
+django.contrib.contenttypes – Um framework para tipos de conteúdo.
+django.contrib.sessions – Um framework de sessão.
+django.contrib.messages – Um framework de envio de mensagem.
+django.contrib.staticfiles – Um framework para gerenciamento de arquivos estáticos.
+"""
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -103,9 +110,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
