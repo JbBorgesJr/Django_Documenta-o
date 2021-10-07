@@ -28,3 +28,9 @@ django-admin startproject mysite
 	-> mysite/asgi.py: um ponto de integração para servidores web compatíveis com ASGI usado para servir seu projeto. Veja Como fazer o deploy com ASGI para mais detalhes.
 	-> mysite/wsgi.py: um ponto de integração para servidores web compatíveis com WSGI usado para servir seu projeto. Veja Como implementar com WSGI para mais detalhes.
 **
+
+# O servidor de desenvolvimento
+python manage.py runserver
+
+# Criando a aplicação de enquetes: Polls
+python manage.py startapp polls
